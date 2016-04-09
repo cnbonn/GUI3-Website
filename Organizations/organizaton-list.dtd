@@ -1,0 +1,16 @@
+<?xml version = "1.0"  encoding = "utf-8" ?>
+
+
+	<!ELEMENT SDSMT_Organizations (organization+)>
+	<!ELEMENT organization (name, icon, advisor, president, officers, 
+ 	              members, description)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT icon (#PCDATA)>
+	<!ELEMENT advisor (#PCDATA)>
+	<!ELEMENT president (#PCDATA)>
+	<!ELEMENT officers (#PCDATA)>
+	<!ELEMENT members (#PCDATA)>
+	<!ELEMENT descripton (#PCDATA)>
+
+
+	
