@@ -1,7 +1,23 @@
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+
+
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+      myFunction(xmlhttp);
+    }
+  };
+  xmlhttp.open("GET", "organization-list.XML", true);
+  xmlhttp.send();
+}
+
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var x = xmlDoc.getElementsByTagName("organization");
+  for (i = 0; i <x.length; i++) { 
+    addButton(x[i]);
+  }
 }
 
 // Close the dropdown menu if the user clicks outside of it
@@ -19,34 +35,17 @@ window.onclick = function(event) {
   }
 } 
 
-/*function display-divs(){
-	var orgs = ["org1", "org2", "org3"];
-	for(var i in orgs)
-	{
-		var newElement = document.createElement('div');
-		newElement.id = orgs[i]; newElement.className = "dropdown";
-		newElement.innerHTML = orgs[i];
-		document.body.appendChild(newElement);
-	}
-}
-
-/*function get-orgs-list() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";
-	var orgs = new XMLHttpRequest();
-	orgs.onreadystatechange = function() {
-		if (orgs.readyState == 4 && orgs.status == 200) {
-		  print-orgs-list(orgs);
-		}
-	};
-	orgs.open("GET", "organization-list.xml", true);
-	orgs.send();
-}
-
-
-function print-orgs-list(xml) {
+function addButton(org) {
 	var i;
-	var xmlDoc = xml.responseXML;
-	var x = xmlDoc.getElementsByTagName("organization");
-	document.write(x);
-	document.getElementById("demo").innerHTML = table;
-}*/
+	var element;
+	var doc = document.getElementById("orglist");
+
+	element = document.createElement("button");
+	element.type = "radio";
+	element.innerHTML = org.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+	element.onclick = function() {
+		alert("you clicked the " + element.innerHTML + " button");
+	};
+	doc.appendChild(element);
+
+}
