@@ -1,52 +1,56 @@
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
+function loadXMLDoc() {
+   document.write("poo" + "<br>");
+
+   var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+      myFunction(xmlhttp);
     }
+  };
+  xmlhttp.open("GET", "organization-list.XML", true);
+  xmlhttp.send();
+}
+
+
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var x = xmlDoc.getElementsByTagName("organization");
+
+  document.write("in myfunction right before add button");
+	addButton(x);
+  document.write("in myfunction right after add button");
+/*
+  var table="<div class=\"dropdown\">";
+  for (i = 0; i <x.length; i++) { 
+    table += "<button type=\"radio\" onclick=\"showContent\" class=\"dropbtn\">" + x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue + "</button>" +
+	     "<div id=\"" + x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue  + "\" class=\"dropdown-content\"" +
+	     "Advisor: " + x[i].getElementsByTagName("advisor")[0].childNodes[0].nodeValue + "<br>" +
+	     "President: " + x[i].getElementsByTagName("president")[0].childNodes[0].nodeValue + "<br>" +
+	     "Officers: " + x[i].getElementsByTagName("officers")[0].childNodes[0].nodeValue + "<br>" +
+	     "Members: " + x[i].getElementsByTagName("members")[0].childNodes[0].nodeValue + "<br>" +
+	     "Description: " + x[i].getElementsByTagName("description")[0].childNodes[0].nodeValue + "<br>";
   }
-} 
-
-/*function display-divs(){
-	var orgs = ["org1", "org2", "org3"];
-	for(var i in orgs)
-	{
-		var newElement = document.createElement('div');
-		newElement.id = orgs[i]; newElement.className = "dropdown";
-		newElement.innerHTML = orgs[i];
-		document.body.appendChild(newElement);
-	}
+  table += "</div>";
+  document.getElementById("demo").innerHTML = table; */
 }
 
-/*function get-orgs-list() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";
-	var orgs = new XMLHttpRequest();
-	orgs.onreadystatechange = function() {
-		if (orgs.readyState == 4 && orgs.status == 200) {
-		  print-orgs-list(orgs);
-		}
-	};
-	orgs.open("GET", "organization-list.xml", true);
-	orgs.send();
-}
-
-
-function print-orgs-list(xml) {
+function addButton(org) {
 	var i;
-	var xmlDoc = xml.responseXML;
-	var x = xmlDoc.getElementsByTagName("organization");
-	document.write(x);
-	document.getElementById("demo").innerHTML = table;
-}*/
+	var element;
+	var doc = document.getElementById("orglist");
+	document.write("in add button function");
+	for (i = 0; i < x.length; i++)
+	{
+		element = document.createElement("button");
+		element.type = "radio";
+		element.name = org[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+		element.onclick = function() {'
+			alert("you clicked the " + element.name + " button");
+		};
+		doc.appendChild(element);
+	}
+    
+}
