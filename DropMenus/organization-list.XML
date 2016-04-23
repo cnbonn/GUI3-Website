@@ -1,0 +1,27 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+
+<!-- planes.xml - A document that lists ads for 
+       used airplanes -->
+
+<!DOCTYPE organization-list.XML SYSTEM "organization-list.dtd">
+ 
+    <SDSMT_Organizations>
+	   <organization>
+            <name> name </name>
+            <icon> icon address </icon>
+            <advisor> advisor </advisor>
+            <president> president </president>
+            <officers> officer </officers>
+            <members> members list </members>
+            <description> description </description>
+        </organization>
+        <organization>
+            <name> name2 </name>
+            <icon> icon address2 </icon>
+            <advisor> advisor2 </advisor>
+            <president> president2 </president>
+            <officers> officer2 </officers>
+            <members> members list2 </members>
+            <description> description2 </description>
+        </organization>
+	</SDSMT_Organizations>
