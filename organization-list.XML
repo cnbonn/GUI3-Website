@@ -1,0 +1,244 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+
+<!-- planes.xml - A document that lists ads for 
+       used airplanes -->
+
+<!DOCTYPE organization-list.XML SYSTEM "organization-list.dtd">
+ 
+<SDSMT_Organizations>
+	<organization>
+	    <name> c </name>
+	    <icon> icon address </icon>
+	    <advisor> dowding </advisor>
+	    <president> wyatt engel </president>
+	    <officers> sam harry bob </officers>
+	    <members> members list </members>
+	    <description> description </description>
+	</organization>
+	<organization>
+	    <name> a </name>
+	    <icon> icon addressc </icon>
+	    <advisor> advisorc </advisor>
+	    <president> president c </president>
+	    <officers> officer c </officers>
+	    <members> members list c </members>
+	    <description> description c </description>
+	</organization>
+	<organization>
+	    <name> b </name>
+	    <icon> icon address b </icon>
+	    <advisor> advisor b </advisor>
+	    <president> president b </president>
+	    <officers> officer b </officers>
+	    <members> members list b </members>
+	    <description> description b </description>
+	</organization>
+	<organization>
+	    <name> d </name>
+	    <icon> icon address d</icon>
+	    <advisor> advisor d </advisor>
+	    <president> president d </president>
+	    <officers> officer d</officers>
+	    <members> members listd  </members>
+	    <description> description d</description>
+	</organization>
+	<organization>
+	    <name> e </name>
+	    <icon> icon address e </icon>
+	    <advisor> advisore</advisor>
+	    <president> president e </president>
+	    <officers> officer e </officers>
+	    <members> members list e </members>
+	    <description> description e </description>
+	</organization>
+	<organization>
+	    <name> f </name>
+	    <icon> icon address f </icon>
+	    <advisor> advisor f </advisor>
+	    <president> president f </president>
+	    <officers> officerf </officers>
+	    <members> members list f </members>
+	    <description> description f </description>
+	</organization>
+	<organization>
+	    <name> g </name>
+	    <icon> icon addressg </icon>
+	    <advisor> advisor g </advisor>
+	    <president> president g </president>
+	    <officers> officer g </officers>
+	    <members> members list g </members>
+	    <description> description g </description>
+	</organization>
+	<organization>
+	    <name> h</name>
+	    <icon> icon address h</icon>
+	    <advisor> advisor h </advisor>
+	    <president> president h </president>
+	    <officers> officer h </officers>
+	    <members> members list h </members>
+	    <description> description h </description>
+	</organization>
+	<organization>
+	    <name> i </name>
+	    <icon> icon address i </icon>
+	    <advisor> advisor i </advisor>
+	    <president> president i </president>
+	    <officers> officer i </officers>
+	    <members> members list i </members>
+	    <description> description i </description>
+	</organization>
+	<organization>
+	    <name> j </name>
+	    <icon> icon address j </icon>
+	    <advisor> advisorj </advisor>
+	    <president> president j</president>
+	    <officers> officer j </officers>
+	    <members> members list j</members>
+	    <description> description j</description>
+	</organization>
+	<organization>
+	    <name> k </name>
+	    <icon> icon address k </icon>
+	    <advisor> advisor k</advisor>
+	    <president> president k </president>
+	    <officers> officer k </officers>
+	    <members> members list k </members>
+	    <description> description k </description>
+	</organization>
+	<organization>
+	    <name> l </name>
+	    <icon> icon address l </icon>
+	    <advisor> advisor l </advisor>
+	    <president> president l </president>
+	    <officers> officer l </officers>
+	    <members> members list l </members>
+	    <description> description l </description>
+	</organization>
+	<organization>
+	    <name> m </name>
+	    <icon> icon address m </icon>
+	    <advisor> advisor m </advisor>
+	    <president> president m</president>
+	    <officers> officer m </officers>
+	    <members> members list m </members>
+	    <description> description m </description>
+	</organization>
+	<organization>
+	    <name> n </name>
+	    <icon> icon address n </icon>
+	    <advisor> advisor n </advisor>
+	    <president> president n </president>
+	    <officers> officern </officers>
+	    <members> members list n </members>
+	    <description> description n </description>
+	</organization>
+	<organization>
+	    <name> o </name>
+	    <icon> icon address o </icon>
+	    <advisor> advisor o </advisor>
+	    <president> president o </president>
+	    <officers> officer o </officers>
+	    <members> members list o</members>
+	    <description> description o </description>
+	</organization>
+	<organization>
+	    <name> p </name>
+	    <icon> icon address p </icon>
+	    <advisor> advisor p </advisor>
+	    <president> president p </president>
+	    <officers> officer p</officers>
+	    <members> members list p</members>
+	    <description> description p </description>
+	</organization>
+	<organization>
+	    <name> q </name>
+	    <icon> icon address q </icon>
+	    <advisor> advisor q </advisor>
+	    <president> president q </president>
+	    <officers> officer q </officers>
+	    <members> members list q </members>
+	    <description> description q </description>
+	</organization>
+	<organization>
+	    <name> r </name>
+	    <icon> icon address r</icon>
+	    <advisor> advisor r </advisor>
+	    <president> president r </president>
+	    <officers> officer r </officers>
+	    <members> members list r</members>
+	    <description> description r </description>
+	</organization>
+	<organization>
+	    <name> s </name>
+	    <icon> icon address s </icon>
+	    <advisor> advisor s </advisor>
+	    <president> president s </president>
+	    <officers> officer s </officers>
+	    <members> members list s </members>
+	    <description> description s </description>
+	</organization>
+	<organization>
+	    <name> t </name>
+	    <icon> icon address t </icon>
+	    <advisor> advisor t </advisor>
+	    <president> president t </president>
+	    <officers> officer t </officers>
+	    <members> members list t </members>
+	    <description> description t </description>
+	</organization>
+	<organization>
+	    <name> u </name>
+	    <icon> icon address u </icon>
+	    <advisor> advisor u </advisor>
+	    <president> president u </president>
+	    <officers> officer u </officers>
+	    <members> members list u </members>
+	    <description> description u </description>
+	</organization>
+	<organization>
+	    <name> v </name>
+	    <icon> icon address v </icon>
+	    <advisor> advisor v </advisor>
+	    <president> president v </president>
+	    <officers> officer v </officers>
+	    <members> members list v </members>
+	    <description> description v </description>
+	</organization>
+	<organization>
+	    <name> w</name>
+	    <icon> icon address w</icon>
+	    <advisor> advisor w </advisor>
+	    <president> president w </president>
+	    <officers> officer w </officers>
+	    <members> members list w </members>
+	    <description> description w </description>
+	</organization>
+	<organization>
+	    <name> x </name>
+	    <icon> icon address x </icon>
+	    <advisor> advisor x </advisor>
+	    <president> president x</president>
+	    <officers> officer x</officers>
+	    <members> members list x</members>
+	    <description> description x </description>
+	</organization>
+	<organization>
+	    <name> y </name>
+	    <icon> icon address y </icon>
+	    <advisor> advisor y </advisor>
+	    <president> president y </president>
+	    <officers> officer y </officers>
+	    <members> members list y </members>
+	    <description> description y </description>
+	</organization>
+	<organization>
+	    <name> z </name>
+	    <icon> icon address z </icon>
+	    <advisor> advisor z </advisor>
+	    <president> president z </president>
+	    <officers> officer z </officers>
+	    <members> members list z </members>
+	    <description> description z </description>
+	</organization>
+
+</SDSMT_Organizations>
