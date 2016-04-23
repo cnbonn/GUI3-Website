@@ -1,20 +1,17 @@
 body {
-    margin: 5%;
-    margin-right: 10%;
-    margin-top: 2%;        
+    margin: 5%;      
     background-color: midnightblue;
-    font-family: sans-serif; color: midnightblue; font-size: 24px;
+    /*background-image: url(images/sdsmtCampus2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  100%; */
+    font-family: sans-serif; color: #ff0; font-size: 24px;
 }
 
 h1 {
     text-align: center;
 }
 
-h2  {
-    text-align: center;
-    font-style: italic; 
-    font-size: 24px;
-}
 
 
 div.Menu{
@@ -29,7 +26,7 @@ div.Menu{
 }
 
 div.Header{
-    background-color: #ff0;
+    background-color: gold;
     font-family: sans-serif; color: midnightblue;
     border-style: outset;
     height: auto;
@@ -42,36 +39,4 @@ div.Footer{
     height: auto;
 }
 
-ul.menuBar {
-    list-style-type: none;
-    display: block;
-    position: absolute; top: 50%;
-    transform: translateY(-50%);
-    padding: 0;
-    margin: 0;
-}
 
-ul.pictureDisplay {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-li.pictureDisplay {
-    display: inline;
-    text-align: center;
-}
-
-.displayInline {
-    display: inline;
-    text-align: center;
-}
-
-table {
-    width: 100%;
-}
-
-td  {
-    width: 5%;  
-    text-align: center;
-}
