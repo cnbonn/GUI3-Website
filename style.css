@@ -1,0 +1,38 @@
+body {
+    margin: 5%;      
+    background-color: midnightblue;
+    /*background-image: url(images/sdsmtCampus2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  100%; */
+    font-family: sans-serif; color: #ff0; font-size: 24px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+div.Menu{
+    background-color: gold;
+    font-family: sans-serif; color:midnightblue; font-size: 24px;
+    height: auto; /* Full height */
+    border-style: double;
+}
+
+div.Header{
+    background-color: gold;
+    font-family: sans-serif; color: midnightblue;
+    border-style: outset;
+    height: auto;
+}
+
+div.Footer{
+    background-color: #999;
+    font-family: sans-serif; color: #fff; font-size: 12px;
+    border-style: inset;
+    height: auto;
+}
+
+
