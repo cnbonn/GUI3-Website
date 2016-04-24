@@ -9,6 +9,7 @@
     <script>
             $("#header").load("header.html");
     </script>
+
     <br>
     <meta charset = "utf-8" />
 </head>
