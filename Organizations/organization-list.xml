@@ -7,21 +7,39 @@
  
     <SDSMT_Organizations>
 	   <organization>
-            <name>name</name>
-            <icon>icon address</icon>
-            <advisor>advisor</advisor>
-            <president>president</president>
-            <officers>officer</officers>
-            <members>members list</members>
-            <description>description</description>
+            <name>a name</name>
+            <icon>a icon address</icon>
+            <advisor>a advisor</advisor>
+            <president>a president</president>
+            <officers>a officer</officers>
+            <members>a members list</members>
+            <description>a description</description>
         </organization>
         <organization>
-            <name>name2</name>
-            <icon>icon address2 </icon>
-            <advisor> advisor2 </advisor>
-            <president> president2 </president>
-            <officers> officer2 </officers>
-            <members> members list2 </members>
-            <description> description2 </description>
+            <name>c name2</name>
+            <icon>c icon address2 </icon>
+            <advisor>c advisor2 </advisor>
+            <president>c president2 </president>
+            <officers>c officer2 </officers>
+            <members>c members list2 </members>
+            <description>c description2 </description>
+        </organization>
+        <organization>
+            <name>b name2</name>
+            <icon>b icon address2 </icon>
+            <advisor>b advisor2 </advisor>
+            <president>b president2 </president>
+            <officers>b officer2 </officers>
+            <members>b members list2 </members>
+            <description>b description2 </description>
+        </organization>
+        <organization>
+            <name>f name2</name>
+            <icon>f icon address2 </icon>
+            <advisor>f advisor2 </advisor>
+            <president>f president2 </president>
+            <officers>f officer2 </officers>
+            <members>f members list2 </members>
+            <description>f description2 </description>
         </organization>
 	</SDSMT_Organizations>
