@@ -15,12 +15,8 @@ h1 {
 
 
 div.Menu{
-    background-color: black; /* For Browsers that don't support any of the below */
-    background: -webkit-linear-gradient(left, black , gainsboro); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, black, gainsboro); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, black, gainsboro); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, black , gainsboro); /* Standard syntax */
-    font-family: sans-serif; color:black; font-size: 24px;
+    background-color: gold;
+    font-family: sans-serif; color:midnightblue; font-size: 24px;
     height: auto; /* Full height */
     border-style: double;
 }
