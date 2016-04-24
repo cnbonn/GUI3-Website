@@ -3,11 +3,19 @@
 
 <head> 
     <title> <?php echo $_GET['org'];  ?> </title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <div id="header" class="Header"></div>
+    <script>
+            $("#header").load("header.html");
+    </script>
+    <br>
     <meta charset = "utf-8" />
 </head>
 
 
 <body>
+    
     
     
     <?php
@@ -27,7 +35,8 @@
             }
         }
     ?>
-    
+    <div id="content" class="Menu">
+        
     name <?php echo $organization->name; ?><br>
     icon <?php echo $organization->icon; ?><br>
     advisor <?php echo $organization->advisor; ?><br>
@@ -40,8 +49,19 @@
     <?php
         echo "hello $organization->name";
     ?>
-
+        
+    </div>
     
 </body>
+    
+<footer>
+    <br>
+        <div id="footer" class="Footer"></div>
+    <script>
+            
+            $("#footer").load("footer.html");
+              
+        </script>
+</footer>
     
 </html>

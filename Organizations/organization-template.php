@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head> 
-    <title> today.php </title>
+
     <meta charset = "utf-8" />
     <script src="organization-js.js"></script>
 
