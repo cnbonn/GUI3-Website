@@ -17,6 +17,7 @@
     //link to new page
     $link = 'organization-page.php';
     $page = array();
+    $gopage= array("A","B","C","D","E","F","G","H","I","J","K","J","M","N","O","P","Q","R","S","T","U","V","W","Z","Y","Z");
     
     if (file_exists('organization-list.xml')) {
         $xml = simplexml_load_file('organization-list.xml');
@@ -46,12 +47,30 @@
 
     xsort($page, 'name', SORT_ASC);
     
-    foreach($page as $organization ) {
-
-        echo "<a href='$link?org=$organization->name' >$organization->name</a> <br>";
-        
+    echo "<center>";
+    
+    
+    //print list of possable letters
+    foreach($gopage as $letter) {
+        echo "| <a href='#$letter'>$letter</a>";
     }
     
+    echo "|<br>";
+    
+    foreach($gopage as $letter){
+        echo "<a name='$letter''>";
+            
+        foreach($page as $organization ) {
+            //echo " $letter , $organization->name ";
+            if( strncmp( strtolower($letter), strtolower($organization->name), 1) == 0){
+                echo "<a href='$link?org=$organization->name' >$organization->name</a> <br>";
+            }
+            
+
+        }
+    }
+    
+    echo "</center>";
     
 ?>
     
