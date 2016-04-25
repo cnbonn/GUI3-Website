@@ -8,7 +8,7 @@
     <SDSMT_Organizations>
 	   <organization>
             <name>Esports</name>
-            <icon>image/esportsicon.jpg</icon>
+            <icon>images/esportsicon.jpg</icon>
             <advisor>Dowding</advisor>
             <president>Wyatt Engel</president>
             <officers>Nolan Klein</officers>
@@ -17,7 +17,7 @@
         </organization>
         <organization>
             <name>3D Printing Club</name>
-            <icon>null</icon>
+            <icon>3dprinticon.jpg</icon>
             <advisor>3D printer advisor </advisor>
             <president>Whoever is the President for this club </president>
             <officers> 3D printing officers </officers>
@@ -26,7 +26,7 @@
         </organization>
         <organization>
             <name>Drama Club</name>
-            <icon>null</icon>
+            <icon>images/dramaicon.png</icon>
             <advisor>Drama Club Advisor</advisor>
             <president>Drama Club President </president>
             <officers>Drama Club officers </officers>
@@ -34,13 +34,13 @@
             <description>Students who do some acting and improvisation and probably more stuff too. </description>
         </organization>
         <organization>
-            <name>f name2</name>
-            <icon>f icon address2 </icon>
-            <advisor>f advisor2 </advisor>
-            <president>f president2 </president>
-            <officers>f officer2 </officers>
-            <members>f members list2 </members>
-            <description>f description2 </description>
+            <name>Flying Club</name>
+            <icon>images/flyingicon.jpeg</icon>
+            <advisor>Flying Club Advisor </advisor>
+            <president>Flying Club President </president>
+            <officers>Flying Club Officers, Some more officers</officers>
+            <members>Mamber 1, member 2, member 3</members>
+            <description>People who like to fly </description>
         </organization>
         
 	</SDSMT_Organizations>
