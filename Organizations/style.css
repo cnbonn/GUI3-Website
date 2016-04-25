@@ -11,8 +11,29 @@ body {
 h1 {
     text-align: center;
 }
+h2 {
+	text-align: right;
+	margin-right: 5%;
+}
+div.main-content{
+	text-align: right;
+	background-color: white;
+	color: black;
+}
+div.image{
+	position: 
+}
 
+img.mcl{
+	position: absolute;
+}
 
+div.homepage-content{
+	background-color: white;
+	border-style: solid;
+	color: black;
+	margin: 10%
+}
 
 div.Content{
     background-color: gold;
