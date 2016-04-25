@@ -7,31 +7,31 @@
  
     <SDSMT_Organizations>
 	   <organization>
-            <name>a name</name>
+            <name>Esports</name>
+            <icon>image/esportsicon.jpg</icon>
+            <advisor>Dowding</advisor>
+            <president>Wyatt Engel</president>
+            <officers>Nolan Klein</officers>
+            <members>Mack Smith, Alex Nienhueser</members>
+            <description>Students committed to competetive video games.</description>
+        </organization>
+        <organization>
+            <name>3D Printing Club</name>
             <icon>null</icon>
-            <advisor>a advisor</advisor>
-            <president>a president</president>
-            <officers>a officer</officers>
-            <members>a members list</members>
-            <description>a description</description>
+            <advisor>3D printer advisor </advisor>
+            <president>Whoever is the President for this club </president>
+            <officers> 3D printing officers </officers>
+            <members>3D printing members </members>
+            <description>Group of students who want to make stuff</description>
         </organization>
         <organization>
-            <name>c name2</name>
-            <icon>c icon address2 </icon>
-            <advisor>c advisor2 </advisor>
-            <president>c president2 </president>
-            <officers>c officer2 </officers>
-            <members>c members list2 </members>
-            <description>c description2 </description>
-        </organization>
-        <organization>
-            <name>b name2</name>
-            <icon>b icon address2 </icon>
-            <advisor>b advisor2 </advisor>
-            <president>b president2 </president>
-            <officers>b officer2 </officers>
-            <members>b members list2 </members>
-            <description>b description2 </description>
+            <name>Drama Club</name>
+            <icon>null</icon>
+            <advisor>Drama Club Advisor</advisor>
+            <president>Drama Club President </president>
+            <officers>Drama Club officers </officers>
+            <members>Drama Club members </members>
+            <description>Students who do some acting and improvisation and probably more stuff too. </description>
         </organization>
         <organization>
             <name>f name2</name>
