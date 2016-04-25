@@ -55,3 +55,139 @@ ul.menuBar {
 }
 
 
+#content img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+ 
+
+.boxed {
+   border: double ;
+
+   background: gold;
+   
+    
+   padding: 6px 12px;
+   width: 50%;
+   color: midnightblue;
+   font-size: 12px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+    
+}
+
+#navigation {
+    
+  background-color: gold;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  color: #ffffff;
+  height: 60px;
+  
+  padding-top: 20px;
+
+
+  color: rgba(244, 1, 1, 0);
+  border: midnightblue ;
+ 
+}
+
+
+
+
+#navigation a {
+	font-size: 14px;
+    
+	padding-left: 15px;
+	padding-right: 15px;
+	color: black; /* word color */
+	text-decoration: none;
+    
+}
+
+#navigation a:hover {
+	color: green;
+}
+
+
+/* nav bar buttons */
+.button {
+    
+   border: 1px solid black;
+   
+   background: #24afff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3ce6e3), to(#24afff));
+   background: -webkit-linear-gradient(top, #3ce6e3, #24afff);
+   background: -moz-linear-gradient(top, #3ce6e3, #24afff);
+   background: -ms-linear-gradient(top, #3ce6e3, #24afff);
+   background: -o-linear-gradient(top, #3ce6e3, #24afff);
+    
+   padding: 6px 12px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 15px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 20px black;
+   background: #409ced;
+   color: #000000;
+   }
+.button:active {
+   border: black;
+   background: #0eeb75;
+   }
+
+ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    vertical-align: middle;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+lc a:hover {
+    background-color: #111;
+}
+
+lc {
+    float: left;
+}
+
+lc a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+lc a:hover {
+    background-color: #111;
+}

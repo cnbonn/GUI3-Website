@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head> 
+    <?php
+    $orgpage = $_GET['org'];
+    ?>
+    <title> <?php echo $orgpage;  ?> </title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <div id="header" class="Header"></div>
+    <div id="nav" class="navigation"></div>
+    
+    <script>
+            $("#header").load("header.html");
+            $("#nav").load("navbar.html");
+    </script>
+
+    <br>
+    <meta charset = "utf-8" />
+</head>
+
+
+<body>
+    <center>
+    
+    <!-- specific information -->
+     <div id="content">   
+        <div class="boxed">
+            <h1>
+                <center> <u>Welcome the the testpage</u> </center>
+            </h1>
+            <h2>
+                
+                This is a page to hold the place of other pages in the website.
+            </h2>
+        </div>
+    </div>
+ 
+    
+   
+        
+    </center>
+    
+</body>
+    
+<footer>
+    <br>
+        <div id="footer" class="Footer"></div>
+    <script>
+            
+            $("#footer").load("footer.html");
+              
+        </script>
+</footer>
+    
+</html>
