@@ -1,3 +1,5 @@
+
+
 body {
     margin: 5%;      
     /*background-color: midnightblue;*/
@@ -37,7 +39,14 @@ div.Footer{
     border-style: inset;
     height: auto;
 }
-
+div.content{
+	text-align: center;
+	margin: 10%;
+	background-color: gold;
+	font-family: sans-serif; color: midnightblue; font-size: 24px;
+	height: auto;
+	border-style: double;
+}
 #content img {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -139,6 +148,7 @@ ul {
     overflow: hidden;
     background-color: none;
     vertical-align: middle;
+	
 }
 
 li {
@@ -168,3 +178,7 @@ lc a {
     text-decoration: none;
 }
 
+ul.standard{
+	text-align: center;
+	list-style-type: disc;
+}
