@@ -1,10 +1,13 @@
 body {
     margin: 5%;      
-    background-color: midnightblue;
-    /*background-image: url(images/sdsmtCampus2.jpg);
+    /*background-color: midnightblue;*/
+    background-image: url(images/smd.png);
+    max-height: initial;
+    max-width:  initial;
+    background-position: center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:  100%; */
+    background-size:  80%; 
     font-family: sans-serif; color: #ff0; font-size: 24px;
 }
 
@@ -45,7 +48,7 @@ div.Content{
 div.Header{
     background-color: gold;
     font-family: sans-serif; color: midnightblue;
-    border-style: outset;
+     border: 5px solid midnightblue ;
     height: auto;
 }
 
@@ -83,10 +86,10 @@ ul.menuBar {
  
 
 .boxed {
-   border: double ;
+   border: 5px solid midnightblue ;
 
    background: gold;
-   
+   color: #000000;
     
    padding: 6px 12px;
    width: 50%;
@@ -95,6 +98,8 @@ ul.menuBar {
    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
    text-decoration: none;
    vertical-align: middle;
+    
+   
     
 }
 
@@ -111,11 +116,9 @@ ul.menuBar {
 
 
   color: rgba(244, 1, 1, 0);
-  border: midnightblue ;
+  border: 5px solid midnightblue ;
  
 }
-
-
 
 
 #navigation a {
