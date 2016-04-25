@@ -71,7 +71,7 @@ div.Footer{
   color: #ffffff;
   height: 60px;
   
-  padding-top: 20px;
+  padding-top: 0%;
 
 
   color: rgba(244, 1, 1, 0);
@@ -83,8 +83,8 @@ div.Footer{
 #navigation a {
 	font-size: 14px;
     
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 15%;
+	padding-right: 15%;
 	color: black; /* word color */
 	text-decoration: none;
     
@@ -149,7 +149,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1% 2%;
     text-decoration: none;
 }
 
@@ -164,7 +164,7 @@ lc a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0% 16%;
     text-decoration: none;
 }
 
