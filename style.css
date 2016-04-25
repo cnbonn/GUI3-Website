@@ -1,6 +1,5 @@
-body {
-    margin: 5%;   
-    margin-left: 20%;   
+body {  
+    margin-left: 15%;   
     /*background-color: midnightblue;*/
     background-image: url(images/smd.png);
     max-height: initial;
@@ -48,7 +47,8 @@ div.Header{
     font-family: sans-serif; color: midnightblue;
     border: 5px solid midnightblue ;
     height: auto;
-    width: 100%;
+    width: 100%;  
+
 }
 
 div.Footer{
@@ -101,9 +101,12 @@ ul.menuBar {
 
 ul.noList {
     list-style-type: none;
-    display: block;
     margin: 0;
     padding: 0;
+    display: inline-block;
+    overflow: hidden;
+    background-color: none;
+    vertical-align: middle;
 }
 
 
@@ -118,32 +121,22 @@ div.Navigation {
 
     background: gold;
     color: #000000;
-    width: 100%;
+    width: 84.5%;
+    height: auto;
     color: midnightblue;
     font-size: 12px;
     font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
     text-decoration: none;
     vertical-align: middle;
+    position:fixed;
+    top: 0;
+    left:15%;
 }
 
-
-
-#navigation {
-    
-  background-color: gold;
-  position: fixed;
-  top: 0;
-  width: 80%;
-  color: #ffffff;
-  height: auto;
-
-
-  color: rgba(244, 1, 1, 0);
-
-  border: 5px solid midnightblue ;
- 
+lc.label{
+    float:right;
+    font-family: sans-serif; color: black; font-size: 60px;
 }
-
 
 #navigation a {
 	font-size: 14px;
@@ -230,4 +223,5 @@ lc a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 
