@@ -1,5 +1,5 @@
-body {
-    margin: 5%;      
+body {  
+    margin-left: 15%;   
     /*background-color: midnightblue;*/
     background-image: url(images/smd.png);
     max-height: initial;
@@ -58,15 +58,6 @@ div.Footer{
     height: auto;
 }
 
-div.content{
-	text-align: center;
-	margin: 10%;
-	background-color: gold;
-	font-family: sans-serif; color: midnightblue; font-size: 24px;
-	height: auto;
-	border-style: double;
-}
-
 /*navigation bar overall style*/
 div.Menu{
     background-color: midnightblue;
@@ -118,6 +109,7 @@ ul.noList {
     vertical-align: middle;
 }
 
+
 #content img {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -148,6 +140,7 @@ lc.label{
 
 #navigation a {
 	font-size: 14px;
+    
 	color: black; /* word color */
 	text-decoration: none;
     
@@ -202,7 +195,6 @@ ul {
     overflow: hidden;
     background-color: none;
     vertical-align: middle;
-	
 }
 
 li {
@@ -213,7 +205,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 1% 2%;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -228,11 +220,8 @@ lc a {
     display: block;
     color: white;
     text-align: center;
-    padding: 0% 16%;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-ul.standard{
-	text-align: center;
-	list-style-type: disc;
-}
+
