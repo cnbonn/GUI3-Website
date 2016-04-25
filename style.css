@@ -1,19 +1,40 @@
 body {
-    margin: 5%;
-    margin-left: 25%;
-    background-color: midnightblue;
-    /*background-image: url(images/sdsmtCampus2.jpg);
+    margin: 5%;   
+    margin-left: 20%;   
+    /*background-color: midnightblue;*/
+    background-image: url(images/smd.png);
+    max-height: initial;
+    max-width:  initial;
+    background-position: center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:  100%; */
+    background-size:  80%; 
     font-family: sans-serif; color: #ff0; font-size: 24px;
 }
 
 h1 {
     text-align: center;
 }
+h2 {
+	text-align: right;
+	margin-right: 5%;
+}
 
 
+li.black{
+    font-family: sans-serif; color: black; font-size: 12px;
+}
+
+img.mcl{
+	position: absolute;
+}
+
+div.homepage-content{
+	background-color: white;
+	border-style: solid;
+	color: black;
+	margin: 10%
+}
 
 div.Content{
     background-color: gold;
@@ -25,8 +46,9 @@ div.Content{
 div.Header{
     background-color: gold;
     font-family: sans-serif; color: midnightblue;
-    border-style: outset;
+    border: 5px solid midnightblue ;
     height: auto;
+    width: 100%;
 }
 
 div.Footer{
@@ -38,12 +60,12 @@ div.Footer{
 
 /*navigation bar overall style*/
 div.Menu{
-    background-color: GOLD;
+    background-color: midnightblue;
     position: absolute; left: 0; top: 0;
-    width: 20%;
+    width: 15%;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
-    font-family: sans-serif; font-size: 24px;
+    font-family: sans-serif; color: black; font-size: 10px;
     overflow: auto;
     margin: 0;
     padding: 0;
@@ -52,9 +74,18 @@ div.Menu{
 div.SubMenu{
     background-color: midnightblue;
     position: fixed; /* Make it stick, even on scroll */
-    font-family: sans-serif; font-size: 10px;
     border-style: inset;
     width: 15%;
+}
+
+/*navigation bar element style*/
+ul.menuBar {
+    list-style-type: none;
+    display: block;
+    position: absolute; top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
 }
 
 /*navigation bar element style*/
@@ -75,4 +106,128 @@ ul.noList {
     padding: 0;
 }
 
+
+#content img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+ 
+
+div.Navigation {
+    border: 5px solid midnightblue ;
+
+    background: gold;
+    color: #000000;
+    width: 100%;
+    color: midnightblue;
+    font-size: 12px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+
+#navigation {
+    
+  background-color: gold;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  color: #ffffff;
+  height: auto;
+
+
+  color: rgba(244, 1, 1, 0);
+
+  border: 5px solid midnightblue ;
+ 
+}
+
+
+#navigation a {
+	font-size: 14px;
+    
+	color: black; /* word color */
+	text-decoration: none;
+    
+}
+
+#navigation a:hover {
+	color: green;
+}
+
+
+/* nav bar buttons */
+.button {
+    
+   border: 1px solid black;
+   
+   background: #24afff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3ce6e3), to(#24afff));
+   background: -webkit-linear-gradient(top, #3ce6e3, #24afff);
+   background: -moz-linear-gradient(top, #3ce6e3, #24afff);
+   background: -ms-linear-gradient(top, #3ce6e3, #24afff);
+   background: -o-linear-gradient(top, #3ce6e3, #24afff);
+    
+   padding: 6px 12px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 15px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 20px black;
+   background: #409ced;
+   color: #000000;
+   }
+.button:active {
+   border: black;
+   background: #0eeb75;
+   }
+
+ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    vertical-align: middle;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+
+lc {
+    float: left;
+}
+
+lc a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
