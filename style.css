@@ -1,5 +1,3 @@
-
-
 body {
     margin: 5%;      
     /*background-color: midnightblue;*/
@@ -16,10 +14,28 @@ body {
 h1 {
     text-align: center;
 }
+h2 {
+	text-align: right;
+	margin-right: 5%;
+}
 
 
+li.black{
+    font-family: sans-serif; color: black; font-size: 12px;
+}
 
-div.Menu{
+img.mcl{
+	position: absolute;
+}
+
+div.homepage-content{
+	background-color: white;
+	border-style: solid;
+	color: black;
+	margin: 10%
+}
+
+div.Content{
     background-color: gold;
     font-family: sans-serif; color:midnightblue; font-size: 24px;
     height: auto; /* Full height */
@@ -29,8 +45,10 @@ div.Menu{
 div.Header{
     background-color: gold;
     font-family: sans-serif; color: midnightblue;
-     border: 5px solid midnightblue ;
+    border: 5px solid midnightblue ;
     height: auto;
+    width: 100%;  
+
 }
 
 div.Footer{
@@ -39,6 +57,7 @@ div.Footer{
     border-style: inset;
     height: auto;
 }
+
 div.content{
 	text-align: center;
 	margin: 10%;
@@ -47,53 +66,88 @@ div.content{
 	height: auto;
 	border-style: double;
 }
+
+/*navigation bar overall style*/
+div.Menu{
+    background-color: midnightblue;
+    position: absolute; left: 0; top: 0;
+    width: 15%;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    font-family: sans-serif; color: black; font-size: 10px;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+div.SubMenu{
+    background-color: midnightblue;
+    position: fixed; /* Make it stick, even on scroll */
+    border-style: inset;
+    width: 15%;
+}
+
+/*navigation bar element style*/
+ul.menuBar {
+    list-style-type: none;
+    display: block;
+    position: absolute; top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+}
+
+/*navigation bar element style*/
+ul.menuBar {
+    border-style: inset;
+    list-style-type: none;
+    display: block;
+    position: absolute; top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+}
+
+ul.noList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+    background-color: none;
+    vertical-align: middle;
+}
+
 #content img {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
  
 
-.boxed {
-   border: 5px solid midnightblue ;
+div.Navigation {
+    border: 5px solid midnightblue ;
 
-   background: gold;
-   color: #000000;
-    
-   padding: 6px 12px;
-   width: 50%;
-   color: midnightblue;
-   font-size: 12px;
-   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
-   text-decoration: none;
-   vertical-align: middle;
-    
-   
-    
+    background: gold;
+    color: #000000;
+    width: 84.5%;
+    height: auto;
+    color: midnightblue;
+    font-size: 12px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    position:fixed;
+    top: 0;
+    left:15%;
 }
 
-#navigation {
-    
-  background-color: gold;
-  position: fixed;
-  top: 0;
-  width: 90%;
-  color: #ffffff;
-  height: 60px;
-  
-  padding-top: 0%;
-
-
-  color: rgba(244, 1, 1, 0);
-  border: 5px solid midnightblue ;
- 
+lc.label{
+    float:right;
+    font-family: sans-serif; color: black; font-size: 60px;
 }
-
 
 #navigation a {
 	font-size: 14px;
-    
-	padding-left: 15%;
-	padding-right: 15%;
 	color: black; /* word color */
 	text-decoration: none;
     
