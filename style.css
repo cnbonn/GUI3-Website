@@ -14,7 +14,7 @@ h1 {
 
 
 
-div.Menu{
+div.Content{
     background-color: gold;
     font-family: sans-serif; color:midnightblue; font-size: 24px;
     height: auto; /* Full height */
@@ -33,6 +33,25 @@ div.Footer{
     font-family: sans-serif; color: #fff; font-size: 12px;
     border-style: inset;
     height: auto;
+}
+
+/*navigation bar overall style*/
+div.Menu{
+    position: absolute; left: 0; top: 0;
+    width: 5%;
+    background-color: black;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+}
+
+/*navigation bar element style*/
+ul.menuBar {
+    list-style-type: none;
+    display: block;
+    position: absolute; top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
 }
 
 
