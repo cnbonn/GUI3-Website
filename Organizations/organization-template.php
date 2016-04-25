@@ -52,10 +52,10 @@
     
     //print list of possable letters
     foreach($gopage as $letter) {
-        echo "| <a href='#$letter'>$letter</a>";
+        echo "|<a href='#$letter'>$letter</a>";
     }
     
-    echo "|<br>";
+    echo "| <br> ";
     
     foreach($gopage as $letter){
         echo "<a name='$letter''>";

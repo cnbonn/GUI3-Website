@@ -151,9 +151,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-lc a:hover {
-    background-color: #111;
-}
+
 
 lc {
     float: left;
@@ -167,7 +165,3 @@ lc a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-lc a:hover {
-    background-color: #111;
-}
