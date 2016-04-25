@@ -3,7 +3,7 @@
 
 <head> 
     <?php
-    $orgpage = $_GET['org'];
+        $orgpage = $_GET['org'];
     ?>
     <title> <?php echo $orgpage;  ?> </title>
     <link rel="stylesheet" href="style.css" type="text/css" />
